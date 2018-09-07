@@ -2,7 +2,7 @@ const express = require('express');
 const projectRouter = express.Router();
 const posts = require('../ProjectController/projectController.js');
 
-projectRouter.get('/api/projects/:id', (req, res) => {
+projectRouter.get('/:id', (req, res) => {
 const { id } = req.params;
 posts.getProjects(id)
     .then(post => {

@@ -19,9 +19,9 @@
   "homepage": "https://github.com/FJF616/Sprint-Challenge-RDBMS#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "express": "^4.16.3",
     "knex": "^0.14.2",
-    "mysql": "^2.15.0",
+    "mysql": "^2.16.0",
     "sqlite3": "^3.1.13",
     "trilogy": "^1.4.4"
   }
